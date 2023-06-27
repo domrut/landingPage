@@ -2,4 +2,4 @@
 
 Tech stack used:
 
-React.js
+React.js, Redux, StyledComponents
