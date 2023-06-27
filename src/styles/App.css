@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  background: #151719;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.a-style {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-end {
+  justify-content: flex-end;
+}
+
+.f-start {
+  justify-content: flex-start;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.t-align-center {
+  text-align: center;
+}
+
+.j-btw {
+  justify-content: space-between;
+}
+
+.j-even {
+  justify-content: space-evenly;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+.f-direction {
+  flex-direction: column;
+}
+
+.f-direction-reverse {
+  flex-direction: column-reverse;
+}
+
+.a-items-center {
+  align-items: center;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.m10 {
+  margin: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.flex3 {
+  flex: 3;
+}
+
+.flex6 {
+  flex: 6;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.link-style {
+  list-style: none;
+  text-decoration: none;
+}
+
+.d-inline {
+  display: inline-block;
+}
+
+.a-self-center {
+  align-self: center;
+}
+
+@media screen and (max-width: 1400px){
+
+}
+
+@media screen and (max-width: 700px){
+
+}

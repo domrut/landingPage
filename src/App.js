@@ -1,8 +1,11 @@
-import './App.css';
+import './styles/App.css';
+import Layout from "./pages/Layout";
 
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <Layout/>
+    </div>
   );
 }
 
