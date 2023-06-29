@@ -1,25 +1,13 @@
 import React from 'react';
-import styled from "styled-components";
 import {Button} from "./styled/Button.styled"
-import {Modal} from "./styled/Modal.styled"
-import {MobileMenu} from "./styled/MobileMenu.styled";
+import {MobileMenu, Nav, Menu, Modal} from "./styled/Header.styled";
 import Hamburger from "./Hamburger";
 import {useSelector} from "react-redux";
-
-const Nav = styled.nav`
-  padding: 1.5rem 0;
-`
-const Menu = styled.div`
-  @media screen and (max-width: 587px) {
-    display: none;
-  }
-`
-
 function Header() {
     const store = useSelector(store => store.hamburger);
 
     return (
-        <Nav className="d-flex j-btw">
+        <Nav>
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="16" cy="16" r="16" fill="#D8D8D8" fillOpacity="0.01"/>
                 <mask id="mask0_0_92" style={{maskType: "luminance"}} maskUnits="userSpaceOnUse" x="0" y="0"
@@ -32,7 +20,7 @@ function Header() {
                           fill="#5658DD"/>
                 </g>
             </svg>
-            <Menu className="a-self-center">
+            <Menu>
                 <Button as="a" href="#" background="transparent">Sign in</Button>
                 <Button as="a" href="#" color="#fff" left="2rem">Sign up</Button>
             </Menu>
