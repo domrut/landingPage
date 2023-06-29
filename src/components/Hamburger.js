@@ -1,5 +1,5 @@
 import React from 'react';
-import {HamburgerStyled} from "./styled/Hamburger.styled";
+import {HamburgerStyled} from "./styled/Header.styled";
 import {updateHamburger} from "../features/hamburgerReducer";
 import {useDispatch, useSelector} from "react-redux";
 function Hamburger() {

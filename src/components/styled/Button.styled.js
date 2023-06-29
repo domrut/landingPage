@@ -10,3 +10,13 @@ export const Button = styled.button`
   background: ${({background}) => background || "#5D5DFF"};
   margin-left: ${({left}) => left || "0"};
 `
+
+export const HeroButton = styled(Button)`
+  @media screen and (max-width: 340px) {
+    margin-left: 0;
+    text-align: center;
+    &:nth-child(2) {
+      margin-top: 0.75rem;
+    }
+  }
+`;
