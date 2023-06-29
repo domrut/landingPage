@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button} from "./styled/Button.styled"
+import {Text} from "../Texts";
 import {MobileMenu, Nav, Menu, Modal} from "./styled/Header.styled";
 import Hamburger from "./Hamburger";
 import {useSelector} from "react-redux";
@@ -21,13 +22,13 @@ function Header() {
                 </g>
             </svg>
             <Menu>
-                <Button as="a" href="#" background="transparent">Sign in</Button>
-                <Button as="a" href="#" color="#fff" left="2rem">Sign up</Button>
+                <Button as="a" href="#" background="transparent">{Text.navButtons.first}</Button>
+                <Button as="a" href="#" color="#fff" left="2rem">{Text.navButtons.second}</Button>
             </Menu>
             <Modal isOpen={store.isOpen}>
                 <MobileMenu>
-                    <Button as="a" href="#" background="transparent">Sign in</Button>
-                    <Button as="a" href="#" color="#fff">Sign up</Button>
+                    <Button as="a" href="#" background="transparent">{Text.navButtons.first}</Button>
+                    <Button as="a" href="#" color="#fff">{Text.navButtons.second}</Button>
                 </MobileMenu>
             </Modal>
             <Hamburger/>

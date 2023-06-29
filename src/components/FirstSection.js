@@ -1,11 +1,18 @@
 import React from 'react';
-import {Heading2} from "./styled/FirstSection.styled";
+import {Heading2, FirstSectionHeader} from "./styled/FirstSection.styled";
+import {Paragraph} from "./styled/Paragraph.styled";
+import {Text} from "../Texts";
+import Cards from "./Cards";
 
 function FirstSection() {
     return (
-        <div>
-            <Heading2>The majority our customers do not understand their workflows.</Heading2>
-        </div>
+        <section>
+            <FirstSectionHeader>
+                <Heading2 marginTop="8rem">{Text.heading2}</Heading2>
+                <Paragraph>{Text.firstSectionParagraph}</Paragraph>
+            </FirstSectionHeader>
+            <Cards/>
+        </section>
     );
 }
 
