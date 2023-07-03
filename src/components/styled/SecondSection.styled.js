@@ -12,7 +12,7 @@ export const Pill = styled.div`
   & > p {
     color: #36A269;
     align-self: center;
-    font-size: 0.875rem;
+    font-size: 0.775rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.375rem;
@@ -24,8 +24,12 @@ export const TabStyled = styled.div`
   margin-top: 5rem;
   column-gap: 4rem;
   justify-content: space-between;
-  @media screen and (max-width: ${({theme}) => theme.mobile}) {
+  @media screen and (max-width: ${({theme}) => theme.tablet}) {
     flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width: 1380px){
+    justify-content: space-evenly;
   }
 `;
 export const TabHeader = styled.h3`
@@ -36,13 +40,16 @@ export const TabHeader = styled.h3`
   margin: 0.5rem 0;
   line-height: 2.625rem;
   letter-spacing: -0.01563rem;
+  @media screen and (max-width: ${({theme}) => theme.mobile}) {
+    font-size: 1.8rem;
+  }
 `;
 export const TabImage = styled.img`
   width: 33.75rem;
-  height: 25.3125rem;
-  @media screen and (max-width: ${({theme}) => theme.mobile}) {
-    width: 16rem;
-    height: 12rem;
+  max-width: 100%;
+  height: auto;
+  @media screen and (max-width: ${({theme}) => theme.tablet}) {
+    margin-top: 1rem;
   }
 `;
 
