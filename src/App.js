@@ -5,6 +5,7 @@ import {ThemeProvider} from "styled-components";
 import {SVG1, SVG2} from "./components/styled/Header.styled";
 
 const theme = {
+    tablet: "768px",
     mobile: "587px",
     mobileSM: "340px"
 }

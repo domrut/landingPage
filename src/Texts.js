@@ -18,5 +18,9 @@ export const Text = {
     tabSpan: Array(3).fill("More speed. Less spend"),
     tabHeader: Array(3).fill("Keep projects on schedule"),
     tabParagraph: Array(3).fill("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."),
-    tabTickSpan: ["Duis aute irure dolor in reprehenderit", "Excepteur sint occaecat", "Amet consectetur adipiscing elit"]
+    tabTickSpan: ["Duis aute irure dolor in reprehenderit", "Excepteur sint occaecat", "Amet consectetur adipiscing elit"],
+    testimonialHeader: "Don't take our word for it",
+    testimonialHeaderParagraph: "Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.",
+    testimonialText: Array(3).fill("— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before."),
+    testimonialBottomText: ["Anastasia Dan / UX Board", "Roman Level / AppName", "Akex Sackett / Reform Layouts"]
 }

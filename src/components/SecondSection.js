@@ -3,7 +3,7 @@ import {FirstSectionHeader, Heading2} from "./styled/FirstSection.styled";
 import {Text} from "../Texts";
 import {Paragraph} from "./styled/Paragraph.styled";
 import {Pill} from "./styled/SecondSection.styled";
-import Tab from "./styled/Tab";
+import Tab from "./Tab";
 import {Divider} from "./styled/Divider.styled";
 
 function SecondSection() {
