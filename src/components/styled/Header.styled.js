@@ -36,7 +36,7 @@ export const SVG1 = styled(SVG)`
   right: 0;
 `
 export const SVG2 = styled(SVG)`
-  right: 50vw;
+  right: 55vw;
   top: 40vh;
 `
 export const MobileMenu = styled.div`
@@ -57,6 +57,8 @@ export const Nav = styled.nav`
 `;
 export const Menu = styled.div`
   align-self: center;
+  z-index: 1;
+  display: flex;
   @media screen and (max-width: ${({theme}) => theme.mobile}) {
     display: none;
   }

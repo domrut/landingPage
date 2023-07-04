@@ -38,8 +38,9 @@ export const HeroMain = styled.div`
 `;
 export const Buttons = styled.div`
   margin-top: 2.75rem;
+  display: flex;
+  z-index: 1;
   @media screen and (max-width: ${({theme}) => theme.mobileSM}) {
     flex-direction: column;
-    display: flex;
   }
 `;

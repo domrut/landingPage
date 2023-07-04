@@ -5,7 +5,7 @@ export const Pill = styled.div`
   background: #C6F6D5;
   display: flex;
   box-shadow: 0 1px 3px 0 rgba(25, 32, 44, 0.04);
-  width: 11.625rem;
+  max-width: 11.625rem;
   height: 1.875rem;
   justify-content: center;
   margin: 5rem auto 0 auto;
