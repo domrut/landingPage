@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import FirstSection from "../components/FirstSection";
 import SecondSection from "../components/SecondSection";
 import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 function Layout() {
 
@@ -16,6 +17,7 @@ function Layout() {
                 <FirstSection/>
                 <SecondSection/>
                 <Testimonials/>
+                <Footer/>
             </Container>
         </>
     );

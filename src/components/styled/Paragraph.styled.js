@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Paragraph = styled.p`
-  color: #9BA9B4;
+  color: ${({color}) => color || "#9BA9B4"};
   text-align: ${({textAlign}) => textAlign || "center"};
   font-size: ${({fontSize}) => fontSize || "1.25rem"};
   font-style: normal;
