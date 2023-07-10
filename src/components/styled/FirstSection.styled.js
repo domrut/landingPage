@@ -10,8 +10,13 @@ export const Heading2 = styled.h2`
   font-weight: 800;
   line-height: 3.125rem;
   letter-spacing: -0.03125rem;
+  @media screen and (max-width: ${({theme}) => theme.mobile}) {
+    & {
+      font-size: 2rem;
+    }
+  }
   @media screen and (max-width: ${({theme}) => theme.mobileSM}) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 `;
 export const FirstSectionHeader = styled.div`

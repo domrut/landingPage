@@ -10,6 +10,9 @@ export const Paragraph = styled.p`
   font-weight: 400;
   line-height: 1.875rem;
   letter-spacing: -0.01563rem;
+  & > a {
+    color: #9BA9B4;
+  }
   @media screen and (max-width: ${({theme}) => theme.mobile}) {
     font-size: 1.125rem;
   }

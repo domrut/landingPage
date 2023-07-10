@@ -41,7 +41,7 @@ export const TabHeader = styled.h3`
   line-height: 2.625rem;
   letter-spacing: -0.01563rem;
   @media screen and (max-width: ${({theme}) => theme.mobile}) {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 `;
 export const TabImage = styled.img`

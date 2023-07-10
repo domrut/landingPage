@@ -49,7 +49,7 @@ function Footer() {
                                textAlign="left">{Text.footerBannerParagraph}</Paragraph>
                 </Flex>
                 <FooterForm>
-                    <FooterInput type="text" ref={input} placeholder="Your best email..."/>
+                    <FooterInput id="contact" type="text" ref={input} placeholder="Your best email..."/>
                     <Button as="a" href="#" left="0.5rem" maxWidth="9rem"
                             background="#fff">{Text.footerBannerButton}</Button>
                 </FooterForm>

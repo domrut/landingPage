@@ -6,17 +6,24 @@ import FirstSection from "../components/FirstSection";
 import SecondSection from "../components/SecondSection";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import {useLocation} from "react-router";
 
 function Layout() {
+
+    const {pathname} = useLocation();
 
     return (
         <>
             <Container>
-                <Header/>
-                <Hero/>
-                <FirstSection/>
-                <SecondSection/>
-                <Testimonials/>
+                {pathname !== "/login" && pathname !== "/register" &&
+                    <>
+                        <Header/>
+                        <Hero/>
+                        <FirstSection/>
+                        <SecondSection/>
+                        <Testimonials/>
+                    </>
+                }
                 <Footer/>
             </Container>
         </>
