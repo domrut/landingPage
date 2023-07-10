@@ -14,4 +14,5 @@ Live version link: landing-page-github-io-three.vercel.app
 Download files to any folder
 
 Run `npm install` to install node_modules
+
 Open LandingPage folder and run `npm start`
