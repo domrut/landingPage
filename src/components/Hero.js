@@ -10,8 +10,8 @@ function Hero() {
             <Heading1>{Text.heading1}</Heading1>
             <Paragraph>{Text.heroParagraph}</Paragraph>
             <Buttons>
-                <HeroButton as="a" href="#" color="#fff">{Text.heroButtons.first}</HeroButton>
-                <HeroButton as="a" href="#" color="#fff" background="#33363A" left="0.75rem">{Text.heroButtons.second}</HeroButton>
+                <HeroButton as="a" href="#contact" color="#fff">{Text.heroButtons.first}</HeroButton>
+                <HeroButton as="a" href="#learnMore" color="#fff" background="#33363A" left="0.75rem">{Text.heroButtons.second}</HeroButton>
             </Buttons>
             <HeroImageStyled>
                 <img src={heroImage} alt="People working with computers"/>

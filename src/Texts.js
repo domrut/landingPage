@@ -32,5 +32,18 @@ export const Text = {
         second: ["Resources", "Nostrud exercitation", "Visual mockups", "Nostrud exercitation", "Visual mockups", "Nostrud exercitation"],
         third: ["Company", "Consectetur adipiscing", "Labore et dolore", "Consectetur adipiscing", "Labore et dolore", "Consectetur adipiscing"]
     },
-    footerRightsReserved: "Design by Cruip. Code by domrut. All rights reserved"
+    footerRightsReserved: "Design by Cruip. Code by domrut. All rights reserved",
+    registerPageHeader: "Welcome. We exist to make entrepreneurism easier.",
+    loginPageHeader: "Welcome back. We exist to make entrepreneurism easier.",
+    withGoogle: (arg) => `Sign ${arg} with Google`,
+    withoutGoogle: (arg) => `Or, ${arg} with your email`,
+    inputFullName: "Full Name",
+    inputCompanyName: "Company Name",
+    inputPassword: "Password",
+    inputEmail: "E-mail",
+    inputKeepMe: "Keep me signed in",
+    inputForgot: "Forgot password?",
+    inputNoAccount: "You don't have an account?",
+    registerPrivacy: "I agree to be contacted by Open PRO about this offer as per the Open PRO.",
+    alreadyRegistered: "Already using Open PRO?"
 }

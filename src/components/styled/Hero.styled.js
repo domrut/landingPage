@@ -9,8 +9,13 @@ export const Heading1 = styled.h1`
   margin: 0 0 1rem 0;
   line-height: 3.875rem;
   letter-spacing: -0.03125rem;
+  @media screen and (max-width: ${({theme}) => theme.mobile}) {
+    & {
+      font-size: 2.2rem;
+    }
+  }
   @media screen and (max-width: ${({theme}) => theme.mobileSM}) {
-    font-size: 2.75rem;
+    font-size: 1.8rem;
   }
 `;
 export const HeroImageStyled = styled.div`

@@ -8,7 +8,7 @@ import {Divider} from "./styled/Divider.styled";
 
 function SecondSection() {
     return (
-        <section>
+        <section id="learnMore">
             <Pill><p>{Text.secondSectionHeaderPill}</p></Pill>
             <FirstSectionHeader>
                 <Heading2 marginTop="1.25rem">{Text.secondSectionHeader}</Heading2>

@@ -54,6 +54,9 @@ export const Nav = styled.nav`
   padding: 1.5rem 0;
   display: flex;
   justify-content: space-between;
+  & > a {
+    z-index: 3;
+  }
 `;
 export const Menu = styled.div`
   align-self: center;
