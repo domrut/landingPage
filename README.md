@@ -7,7 +7,7 @@ React.js, Redux, StyledComponents
 
 Free design document: https://www.figma.com/file/1c2lrxrypcHCLulX9iOnMD/Open-(Community)?node-id=0%3A187&mode=dev
 
-Live version link: landing-page-github-io-three.vercel.app
+Live version link: https://landing-page-github-io-three.vercel.app
 
 # How to install
 
