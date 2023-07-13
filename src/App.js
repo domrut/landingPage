@@ -1,4 +1,3 @@
-import './styles/App.css';
 import Layout from "./pages/Layout";
 import React from "react";
 import {ThemeProvider} from "styled-components";
