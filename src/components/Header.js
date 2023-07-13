@@ -11,7 +11,7 @@ function Header({isAuth}) {
 
     return (
         <Nav>
-            <NavLink to="/">
+            <NavLink to="/" aria-label="HomePage">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="16" cy="16" r="16" fill="#D8D8D8" fillOpacity="0.01"/>
                     <mask id="mask0_0_92" style={{maskType: "luminance"}} maskUnits="userSpaceOnUse" x="0" y="0"

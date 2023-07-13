@@ -3,7 +3,7 @@ import {HeroButton} from "./styled/Button.styled";
 import {Text} from "../Texts";
 import {Heading1, HeroMain, HeroImageStyled, Buttons} from "./styled/Hero.styled";
 import {Paragraph} from "./styled/Paragraph.styled";
-import heroImage from "../assets/HeroImage.png";
+import heroImage from "../assets/HeroImage.webp";
 function Hero() {
     return (
         <HeroMain>
@@ -14,7 +14,7 @@ function Hero() {
                 <HeroButton as="a" href="#learnMore" color="#fff" background="#33363A" left="0.75rem">{Text.heroButtons.second}</HeroButton>
             </Buttons>
             <HeroImageStyled>
-                <img src={heroImage} alt="People working with computers"/>
+                <img src={heroImage} width="1024px" height="576px" alt="People working with computers"/>
             </HeroImageStyled>
         </HeroMain>
     );

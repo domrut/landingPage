@@ -27,6 +27,8 @@ export const HeroImageStyled = styled.div`
     display: block;
     width: 100%;
     height: auto;
+    max-width: 1024px;
+    max-height: 576px;
     border-radius: 20px;
   }
   @media screen and (max-width: ${({theme}) => theme.mobileSM}) {

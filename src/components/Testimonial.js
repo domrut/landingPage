@@ -2,9 +2,9 @@ import React from 'react';
 import {TestimonialAvatar, TestimonialParagraph, TestimonialStyled, TestimonialSVG} from "./styled/Testimonials.styled";
 import {Text} from "../Texts";
 import {Paragraph} from "./styled/Paragraph.styled";
-import firstImage from "../assets/TestimonialOne.png"
-import secondImage from "../assets/TestimonialTwo.png"
-import thirdImage from "../assets/TestimonialThree.png"
+import firstImage from "../assets/TestimonialOne.webp"
+import secondImage from "../assets/TestimonialTwo.webp"
+import thirdImage from "../assets/TestimonialThree.webp"
 import {Divider} from "./styled/Divider.styled";
 
 function Testimonial({element}) {
@@ -12,7 +12,7 @@ function Testimonial({element}) {
     return (
         <TestimonialStyled>
             <TestimonialAvatar>
-                <img src={images[element]} alt="TestimonialAvatar"/>
+                <img src={images[element]} loading="lazy" alt="TestimonialAvatar"/>
                 <TestimonialSVG width="24" height="19" viewBox="0 0 24 19" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" clipRule="evenodd"

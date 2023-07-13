@@ -2,9 +2,9 @@ import React from 'react';
 import {TabHeader, TabImage, TabStyled, TabSpan, TabSVG} from "./styled/SecondSection.styled";
 import {Text} from "../Texts";
 import {Paragraph} from "./styled/Paragraph.styled";
-import firstTabImage from "../assets/tabOne.png"
-import secondTabImage from "../assets/tabTwo.png"
-import thirdTabImage from "../assets/tabThree.png"
+import firstTabImage from "../assets/tabOne.webp"
+import secondTabImage from "../assets/tabTwo.webp"
+import thirdTabImage from "../assets/tabThree.webp"
 import {Flex} from "./styled/Flex.styled";
 
 function Tab({element}) {
@@ -27,7 +27,7 @@ function Tab({element}) {
                 })}
             </Flex>
             <div>
-                <TabImage src={images[element]} alt="TabImage"/>
+                <TabImage src={images[element]} width="540px" height="403px" loading="lazy" alt="TabImage"/>
             </div>
         </TabStyled>
     );
