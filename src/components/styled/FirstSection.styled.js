@@ -28,7 +28,7 @@ export const CardsContainer = styled.div`
   margin-top: 3.25rem;
   gap: 2rem;
 `;
-export const CardHeader = styled.h4`
+export const CardHeader = styled.h3`
   color: #D9E3EA;
   text-align: center;
   font-size: 1.5rem;
